@@ -1,5 +1,5 @@
 
-fun findNthDigit(n: Int): Int {
+private fun findNthDigit(n: Int): Int {
     var value = n
 
     var start = 1
