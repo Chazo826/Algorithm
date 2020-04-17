@@ -7,12 +7,14 @@
  *     var next: ListNode? = null
  * }
  */
-class ListNode(var `val`: Int) {
-    var next: ListNode? = null
-}
 
-class Solution {
-    fun middleNode(head: ListNode?): ListNode? {
+
+private class MiddleOfTheLinkedList {
+    private class ListNode(var `val`: Int) {
+        var next: ListNode? = null
+    }
+
+    private fun middleNode(head: ListNode?): ListNode? {
         var size = 0
 
         val list = mutableListOf<ListNode>()
