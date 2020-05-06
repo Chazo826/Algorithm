@@ -1,5 +1,7 @@
+package thirty_day_leetcoding_challenge
+
 fun main() {
-    println(countElements(intArrayOf(1,1,2)))
+    println(countElements(intArrayOf(1, 1, 2)))
 }
 
 private fun countElements(arr: IntArray): Int {

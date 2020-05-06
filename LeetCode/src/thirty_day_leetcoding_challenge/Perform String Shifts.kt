@@ -1,6 +1,7 @@
-
+package thirty_day_leetcoding_challenge
 fun main() {
-    println(Solution().stringShift("mecsk",
+    println(
+        Solution().stringShift("mecsk",
         arrayOf(intArrayOf(1, 1))))
 }
 

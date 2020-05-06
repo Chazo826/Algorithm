@@ -1,3 +1,5 @@
+package thirty_day_leetcoding_challenge
+
 import kotlin.math.max
 
 /**
@@ -48,7 +50,12 @@ private class DiameterOfBinaryTree {
         val left = maxLength(node.left, length.copy(maxDeep = length.maxDeep + 1))
         val right = maxLength(node.right, length.copy(maxDeep = length.maxDeep + 1))
 
-        return Length(max(left.maxDeep, right.maxDeep), max(left.maxDeep + right.maxDeep - length.maxDeep * 2, max(left.longestPath, right.longestPath)))
+        return Length(
+            max(
+                left.maxDeep,
+                right.maxDeep
+            ), max(left.maxDeep + right.maxDeep - length.maxDeep * 2, max(left.longestPath, right.longestPath))
+        )
     }
 }
 

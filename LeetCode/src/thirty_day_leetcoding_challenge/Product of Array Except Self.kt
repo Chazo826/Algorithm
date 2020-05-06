@@ -1,4 +1,4 @@
-
+package thirty_day_leetcoding_challenge
 
 private fun productExceptSelf(nums: IntArray): IntArray {
     val left = IntArray(nums.size)

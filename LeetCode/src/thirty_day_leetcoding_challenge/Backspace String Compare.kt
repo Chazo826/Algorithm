@@ -1,3 +1,5 @@
+package thirty_day_leetcoding_challenge
+
 import java.util.*
 
 fun main() {
@@ -31,6 +33,6 @@ fun backspaceCompare(S: String, T: String): Boolean {
     }
 
     val afterT = charQueue.toString()
-
+e
     return afterS == afterT
 }

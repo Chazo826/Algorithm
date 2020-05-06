@@ -1,7 +1,11 @@
+package thirty_day_leetcoding_challenge
+
 import kotlin.math.max
 
 fun main() {
-    println(ContiguousArray().findMaxLength(intArrayOf(0, 1, 0, 0, 1, 1, 0)))
+    println(
+        ContiguousArray()
+            .findMaxLength(intArrayOf(0, 1, 0, 0, 1, 1, 0)))
 }
 
 class ContiguousArray {

@@ -1,3 +1,5 @@
+package thirty_day_leetcoding_challenge
+
 import java.util.*
 
 fun main() {
