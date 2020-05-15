@@ -2,7 +2,7 @@ package may_leetcoding_challenge
 
 import kotlin.math.min
 
-fun firstUniqChar(s: String): Int {
+private fun firstUniqChar(s: String): Int {
     val indexMap = HashMap<Char, Int>()
     val repeatingCountMap = HashMap<Char, Int>()
 
