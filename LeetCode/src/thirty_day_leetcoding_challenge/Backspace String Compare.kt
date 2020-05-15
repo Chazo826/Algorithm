@@ -33,6 +33,6 @@ fun backspaceCompare(S: String, T: String): Boolean {
     }
 
     val afterT = charQueue.toString()
-e
+
     return afterS == afterT
 }
