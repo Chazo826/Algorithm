@@ -3,8 +3,6 @@ package may_leetcoding_challenge
 fun main() {
 
     println(PermutationInString().checkInclusion("hello", "ooolleoooleh"))
-//    println(PermutationInString().checkInclusion("adc", "dcda"))
-//    println(PermutationInString().checkInclusion("islander", "islander"))
 
 }
 
